@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20240108172126"
+  },
+  "applications": "*",
+  "entityTableName": "comment",
+  "fields": [
+    {
+      "fieldName": "nickName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "commentText",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Comment",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "book",
+      "relationshipName": "book",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
