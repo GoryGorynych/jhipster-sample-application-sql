@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20240108171826"
+  },
+  "applications": "*",
+  "entityTableName": "author",
+  "fields": [
+    {
+      "fieldName": "fullName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthYear",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "deathyear",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "birthcountry",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Author",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

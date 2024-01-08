@@ -38,6 +38,11 @@ public class CacheConfiguration {
         return cm -> {
             createCache(cm, ru.gor.library.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, ru.gor.library.repository.UserRepository.USERS_BY_EMAIL_CACHE);
+            createCache(cm, ru.gor.library.domain.Author.class.getName());
+            createCache(cm, ru.gor.library.domain.Genre.class.getName());
+            createCache(cm, ru.gor.library.domain.Book.class.getName());
+            createCache(cm, ru.gor.library.domain.Book.class.getName() + ".comments");
+            createCache(cm, ru.gor.library.domain.Comment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

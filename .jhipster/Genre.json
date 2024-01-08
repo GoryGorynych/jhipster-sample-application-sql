@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20240108171926"
+  },
+  "applications": "*",
+  "entityTableName": "genre",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "decription",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Genre",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
